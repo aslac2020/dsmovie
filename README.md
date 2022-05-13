@@ -15,7 +15,7 @@ atualizar avaliações.
 # Tecnologias utilizadas
 
 ## Front end e Back end
-- JavaScript
+- TypeScript
 - Heroku
 - Postgres
 - REACT.JS
