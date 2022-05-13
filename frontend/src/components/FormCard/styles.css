@@ -46,7 +46,7 @@
 }
 
 .dsmovie-btn {
-    background-color: var(--color-primary);
+    background-color: #000;
     font-size: 14px;
     font-weight: 700;
     height: 40px;
@@ -54,4 +54,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #fff;
+    border: 2px solid #DB0000;
+	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
 }
+
+
+.dsmovie-btn:hover {
+    color: #DB0000;
+	background-color: rgb(52, 52, 52);
+	text-shadow: none;
+    transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+
+
